@@ -19,6 +19,8 @@ class Bcp < Formula
     # zip directory to /tmp and bcp it
     bcpdir() {
 
+      [ "$#" -eq 1 ] || { echo "The path is required!"; return; }
+
       curr_time=`date +%s`
       file=/tmp/files_$curr_time.zip
 
@@ -49,7 +51,10 @@ class Bcp < Formula
 
     # zip file/directory with password to /tmp and bcp it
     bcppass() {
+
+      [ "$#" -eq 1 ] || { echo "The path is required!"; return; }
       bcpdir $1 -e
+
     }
     EOS
   end
