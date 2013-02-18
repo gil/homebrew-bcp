@@ -1,4 +1,4 @@
-# brew-bcp
+# homebrew-bcp
 
 [Homebrew](http://mxcl.github.com/homebrew/) Formula to install [bcp (Broadcast Copy)](https://github.com/jwilberding/bcp), created by [jwilberding](https://github.com/jwilberding).
 
