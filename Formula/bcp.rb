@@ -4,8 +4,8 @@ class Bcp < Formula
 
   version '0.0.1'
   homepage 'https://github.com/jwilberding/bcp'
-  url 'https://github.com/jwilberding/bcp/archive/c6ba7985d9e6dfd05445b31593c4024e9fe4515f.zip'
-  sha1 '60548647db1409f7f3f7bc0ad71023f7bdb51e22'
+  url 'https://github.com/jwilberding/bcp/archive/v0.0.1.zip'
+  sha1 '556d9b21e8204cf4f372cfee1fe49ddc67ff0600'
 
   def install
 
