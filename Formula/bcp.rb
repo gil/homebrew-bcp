@@ -5,7 +5,7 @@ class Bcp < Formula
   version '0.0.1'
   homepage 'https://github.com/jwilberding/bcp'
   url 'https://github.com/jwilberding/bcp/archive/v0.0.1.zip'
-  sha1 '556d9b21e8204cf4f372cfee1fe49ddc67ff0600'
+  sha1 '88f7da87f44ec7321bbe2814e03d51624857be75'
 
   def install
 
